@@ -3049,28 +3049,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clickhouse/client-common@npm:1.12.1, @clickhouse/client-common@npm:^1.12.1":
-  version: 1.12.1
-  resolution: "@clickhouse/client-common@npm:1.12.1"
-  checksum: 10c0/9f475c8517b164c3676a969b60c8165a4b0558906917dbe97ae35f69f2702a6fc198cbdb2e6d2ec3543c627ec04a7e2fccb41f3114452bf7f4818152c0f98a5d
+"@clickhouse/client-common@npm:1.21.0-head.68dd619.1, @clickhouse/client-common@npm:head":
+  version: 1.21.0-head.68dd619.1
+  resolution: "@clickhouse/client-common@npm:1.21.0-head.68dd619.1"
+  checksum: 10c0/34d1be8064549d277077bcc253df0ab9e1aa3a33710cf1bf90f2a19cb88d6ecd8e7bb12e7609954ef00032c23abf22622333387f3dc91683bcf02c549579c0f6
   languageName: node
   linkType: hard
 
-"@clickhouse/client-web@npm:^1.12.1":
-  version: 1.12.1
-  resolution: "@clickhouse/client-web@npm:1.12.1"
+"@clickhouse/client-web@npm:head":
+  version: 1.21.0-head.68dd619.1
+  resolution: "@clickhouse/client-web@npm:1.21.0-head.68dd619.1"
   dependencies:
-    "@clickhouse/client-common": "npm:1.12.1"
-  checksum: 10c0/3e374288a2e0e4ced37220638629612dc8d6ced66490c2bdac136ddb887d5e108b9992b26d57911d6007bd47eaf7a754caa48e3afdfdb44cbd4f07bec7900995
+    "@clickhouse/client-common": "npm:1.21.0-head.68dd619.1"
+  checksum: 10c0/ac80a240a439f97ce7891376d9dc1f35eb05be5837146296ba695357e02a02078629d86efa1542cfb38453fac76595a5c3f49912b2d5908b81a9f5dc6ecd7af3
   languageName: node
   linkType: hard
 
-"@clickhouse/client@npm:^1.12.1":
-  version: 1.12.1
-  resolution: "@clickhouse/client@npm:1.12.1"
+"@clickhouse/client@npm:head":
+  version: 1.21.0-head.68dd619.1
+  resolution: "@clickhouse/client@npm:1.21.0-head.68dd619.1"
   dependencies:
-    "@clickhouse/client-common": "npm:1.12.1"
-  checksum: 10c0/4d715accad5ba74248c63fab83469ebeffc16d7cc5050ee7e5f9e7dd48d0e7c4b79517bf5917f2a60599960aee997e5d8341c480d056286f5d9a86530623211f
+    "@clickhouse/client-common": "npm:1.21.0-head.68dd619.1"
+  checksum: 10c0/6d75767311851ed92f5eb2a75022c7ec8dc6cea0fdf21d80f633181a0fb2ce6c773c8067724669540c94929af927811ea05e5bb631872ccb3d341643d9a3aaec
   languageName: node
   linkType: hard
 
@@ -4575,8 +4575,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hyperdx/cli@workspace:packages/cli"
   dependencies:
-    "@clickhouse/client": "npm:^1.12.1"
-    "@clickhouse/client-common": "npm:^1.12.1"
+    "@clickhouse/client": "npm:head"
+    "@clickhouse/client-common": "npm:head"
     "@hyperdx/common-utils": "npm:^0.20.0"
     "@jest/globals": "npm:^30.2.0"
     "@types/crypto-js": "npm:^4.2.2"
@@ -4607,9 +4607,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hyperdx/common-utils@workspace:packages/common-utils"
   dependencies:
-    "@clickhouse/client": "npm:^1.12.1"
-    "@clickhouse/client-common": "npm:^1.12.1"
-    "@clickhouse/client-web": "npm:^1.12.1"
+    "@clickhouse/client": "npm:head"
+    "@clickhouse/client-common": "npm:head"
+    "@clickhouse/client-web": "npm:head"
     "@hyperdx/lucene": "npm:^3.1.1"
     "@types/hyperdx__lucene": "npm:@types/lucene@*"
     "@types/jest": "npm:^29.5.14"
@@ -4639,7 +4639,7 @@ __metadata:
   resolution: "@hyperdx/hdx-eval@workspace:packages/hdx-eval"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.92.0"
-    "@clickhouse/client": "npm:^1.12.1"
+    "@clickhouse/client": "npm:head"
     "@dotenvx/dotenvx": "npm:^1.51.1"
     "@types/jest": "npm:^29.5.14"
     "@types/ms": "npm:^0.7.31"
